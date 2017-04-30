@@ -29,6 +29,7 @@ namespace ConsoleApplication1
             int b = 456;
             int c = 789;
             int d = 666;
+            int e = 101;
             string datetimeStart = "2017-04-01";
             string datetimeEnd = "2017-04-06";
             DateTime dStart = Convert.ToDateTime(datetimeStart);
