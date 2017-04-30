@@ -1,0 +1,10 @@
+lcd G:\backup\mssqldiff\ActivityDB
+open 192.168.0.2
+autoftp
+autoftp15167144319
+binary
+cd diff
+cd ActivityDB
+prompt
+put ActivityDB_backup_201601160400.bak
+bye

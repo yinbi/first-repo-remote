@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LocalRemoteFileMap>
+  <diff>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="ActivityDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="MatchConfig" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="MatchDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPGameScoreDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPGameSummary" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPGameUserDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPTreasureDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="TLWebSiteDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPRecordDB" description="数据库差异备份"/>
+  </diff>
+  <full>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="ActivityDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="MatchConfig" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="MatchDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="QPGameScoreDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="QPGameSummary" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="QPGameUserDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="QPTreasureDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="TLWebSiteDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" remoteLocalPath="D:\DatabaseBak\" databasename="QPRecordDB" description="数据库完整备份"/>
+  </full>
+</LocalRemoteFileMap>

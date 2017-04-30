@@ -1,0 +1,40 @@
+﻿<LocalRemoteFileMap>
+  <diff>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="ActivityDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="MatchConfig" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="MatchDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPGameScoreDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPGameSummary" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPGameUserDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="QPTreasureDB" description="数据库差异备份"/>
+    <difffile localPath="G:\backup\mssqldiff\" remotePath="diff\" databasename="TLWebSiteDB" description="数据库差异备份"/>
+  </diff>
+  <full>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="ActivityDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="MatchConfig" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="MatchDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="QPGameScoreDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="QPGameSummary" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="QPGameUserDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="QPTreasureDB" description="数据库完整备份"/>
+    <fullfile localPath="G:\backup\mssql\" remotePath="full\" databasename="TLWebSiteDB" description="数据库完整备份"/>
+  </full>
+  <!--<txt>
+    <txtfile localPath="F:\databases\full\" remotePath="autoftp\full\" databasename="TLCar" description="数据库完整备份"/>
+  </txt>-->
+</LocalRemoteFileMap>
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<LocalRemoteFileMap>
+  <diff>
+    <difffile localPath="F:\databases\diff\" remotePath="autoftp\diff\" databasename="TLCar" description="数据库差异备份"/>
+  </diff>
+  <full>
+    <fullfile localPath="F:\databases\full\" remotePath="autoftp\full\" databasename="TLCar" description="数据库完整备份"/>
+  </full>
+  <txt>
+    <txtfile localPath="F:\databases\full\" remotePath="autoftp\full\" databasename="TLCar" description="数据库完整备份"/>
+  </txt>
+</LocalRemoteFileMap>

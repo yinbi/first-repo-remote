@@ -1,0 +1,42 @@
+﻿ Command com = new Command();
+            //string s = @"ftp.exe -s:D:\autoftp\ftp.txt";//正常运行
+            //string s = @"ftp.exe lcd F:\databases\diff\TLCar open 192.168.1.57 aotoftp 123456 binary cd \autoftp prompt put TLCar_backup_2015_05_29_184901_5293977.bak bye";
+            //string s = "ipconfig";
+            string filePath = "1.txt";
+            if(File.Exists(filePath))
+            {
+                File.Delete(filePath);
+            }
+            FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Write);
+            StreamWriter sw = new StreamWriter(fs);
+            sw.WriteLine("lcd F:\\databases\\diff\\TLCar");
+            sw.WriteLine("open 192.168.1.57");
+            sw.WriteLine("aotoftp");
+            sw.WriteLine("123456");
+            sw.WriteLine("binary");
+            sw.WriteLine("cd \\autoftp");
+            sw.WriteLine("prompt");
+            sw.WriteLine("put TLCar_backup_2015_05_29_184901_5293977.bak");
+            sw.WriteLine("bye");
+
+            //sw.WriteLine(@"lcd F:\databases\diff\TLCar");
+            //sw.WriteLine("open 192.168.1.57");
+            //sw.WriteLine("aotoftp");
+            //sw.WriteLine("123456");
+            //sw.WriteLine("binary");
+            //sw.WriteLine(@"cd \autoftp");
+            //sw.WriteLine("prompt");
+            //sw.WriteLine("mput *.bak");
+            //sw.WriteLine("bye");
+            //sw.Flush();
+            //sw.Close();
+            
+            //string s = "ftp.exe\n  \n n aotoftp\n \n binary\n cd \autoftp\n prompt\n put TLCar_backup_2015_05_29_184901_5293977.bak\n bye\n";
+            string s = "ftp.exe -s:" + filePath;
+            string str = com.RunCmd(s);
+            //Console.WriteLine(str);
+            Console.ReadKey();
+
+
+
+
