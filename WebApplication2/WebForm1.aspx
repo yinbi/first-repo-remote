@@ -33,6 +33,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:Button ID="Button1" runat="server" Text="lockTest" OnClick="Button1_Click" />
+        <br />
+        <br />
         <div>
             <input id="btnTest" type="button" value="测试" onclick="TestFun()" />
             <br />
