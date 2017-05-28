@@ -26,14 +26,14 @@ namespace WebApplication2
             //        Thread.Sleep(1000);
             //    }
             //}
-            lock (o)
-            {
-                for (int i = 0; i < 10; i++)
-                {
-                    Thread.Sleep(1000);
-                    Response.Write(DateTime.Now.ToString() + "<br />");
-                }
-            }
+            //lock (o)
+            //{
+            //    for (int i = 0; i < 10; i++)
+            //    {
+            //        Thread.Sleep(1000);
+            //        Response.Write(DateTime.Now.ToString() + "<br />");
+            //    }
+            //}
         }
     }
 }
